@@ -1,0 +1,6 @@
+services:
+  server:
+    build:
+      dockerfile: ./cyd-browser-server/env/docker/Dockerfile
+    container_name: cyd-browser-server
+      - 3000:3000
